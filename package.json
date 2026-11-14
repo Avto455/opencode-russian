@@ -1,7 +1,6 @@
 {
-  "name": "opencode-russian",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@avtomap/opencode-russian",
+  "version": "0.1.1",
   "description": "OpenCode V2 Russian Language Pack — русификация интерфейса OpenCode 2",
   "license": "MIT",
   "type": "module",
