@@ -1,0 +1,448 @@
+{
+  "name": "Template Language",
+  "language_picker": {
+    "question": "Choose interface language",
+    "option_descriptions": {
+      "en": "Switch to English interface",
+      "ru": "Switch to Russian interface"
+    }
+  },
+  "commands": {
+    "session.new": {
+      "titles": {
+        "New session": "",
+        "Create a new session": ""
+      },
+      "description": ""
+    },
+    "session.list": {
+      "titles": {
+        "Switch session": "",
+        "List all sessions": ""
+      },
+      "description": ""
+    },
+    "session.sidebar.toggle": {
+      "titles": {
+        "Hide sidebar": "",
+        "Show sidebar": "",
+        "Toggle sidebar": ""
+      },
+      "description": ""
+    },
+    "session.interrupt": {
+      "titles": {
+        "Interrupt session": "",
+        "Interrupt current session": ""
+      },
+      "description": ""
+    },
+    "session.compact": {
+      "titles": {
+        "Compact session": "",
+        "Compact the session": ""
+      },
+      "description": ""
+    },
+    "session.delete": {
+      "titles": {
+        "Delete session": "",
+        "delete": ""
+      },
+      "description": ""
+    },
+    "session.rename": {
+      "titles": {
+        "Rename session": "",
+        "rename": ""
+      },
+      "description": ""
+    },
+    "session.share": {
+      "titles": {
+        "Share session": "",
+        "Share current session": ""
+      },
+      "description": ""
+    },
+    "session.unshare": {
+      "titles": {
+        "Unshare session": "",
+        "Unshare current session": ""
+      },
+      "description": ""
+    },
+    "session.fork": {
+      "titles": {
+        "Fork session": "",
+        "Fork session from message": ""
+      },
+      "description": ""
+    },
+    "session.copy": {
+      "titles": {
+        "Copy session transcript": ""
+      },
+      "description": ""
+    },
+    "session.export": {
+      "titles": {
+        "Export session transcript": "",
+        "Export session to editor": ""
+      },
+      "description": ""
+    },
+    "agent.list": {
+      "titles": {
+        "Switch agent": "",
+        "List agents": ""
+      },
+      "description": ""
+    },
+    "agent.cycle": {
+      "titles": {
+        "Next agent": "",
+        "Agent cycle": ""
+      },
+      "description": ""
+    },
+    "agent.cycle.reverse": {
+      "titles": {
+        "Previous agent": "",
+        "Agent cycle reverse": ""
+      },
+      "description": ""
+    },
+    "model.list": {
+      "titles": {
+        "Switch model": "",
+        "List available models": ""
+      },
+      "description": ""
+    },
+    "model.cycle_recent": {
+      "titles": {
+        "Next recently used model": "",
+        "Model cycle": ""
+      },
+      "description": ""
+    },
+    "model.cycle_recent_reverse": {
+      "titles": {
+        "Previous recently used model": "",
+        "Model cycle reverse": ""
+      },
+      "description": ""
+    },
+    "theme.switch": {
+      "titles": {
+        "Switch theme": "",
+        "List available themes": ""
+      },
+      "description": ""
+    },
+    "theme.switch_mode": {
+      "titles": {
+        "Switch to light mode": "",
+        "Switch between light and dark theme mode": "",
+        "Switch to dark mode": ""
+      },
+      "description": ""
+    },
+    "command.palette.show": {
+      "titles": {
+        "Show command palette": "",
+        "List available commands": "",
+        "Open command palette": ""
+      },
+      "description": ""
+    },
+    "help.show": {
+      "titles": {
+        "Help": "",
+        "Open help dialog": ""
+      },
+      "description": ""
+    },
+    "opencode.settings": {
+      "titles": {
+        "Open settings": ""
+      },
+      "description": ""
+    },
+    "opencode.status": {
+      "titles": {
+        "View status": ""
+      },
+      "description": ""
+    },
+    "opencode.update": {
+      "titles": {
+        "Update OpenCode": ""
+      },
+      "description": ""
+    },
+    "plugins.install": {
+      "titles": {
+        "Install plugin": ""
+      },
+      "description": ""
+    },
+    "plugins.list": {
+      "titles": {
+        "Plugins": "",
+        "Open plugin manager dialog": ""
+      },
+      "description": ""
+    },
+    "plugins.toggle": {
+      "titles": {
+        "Toggle plugin": "",
+        "disable": "",
+        "enable": ""
+      }
+    },
+    "mcp.list": {
+      "titles": {
+        "MCP servers": "",
+        "List MCP servers": ""
+      },
+      "description": ""
+    },
+    "provider.connect": {
+      "titles": {
+        "Connect an integration": "",
+        "Connect integration": ""
+      },
+      "description": ""
+    },
+    "prompt.editor": {
+      "titles": {
+        "Open editor": "",
+        "Open external editor": ""
+      },
+      "description": ""
+    },
+    "prompt.clear": {
+      "titles": {
+        "Clear prompt": "",
+        "Clear input field": "",
+        "Dismiss autocomplete": "",
+        "Clear prompt or exit": "",
+        "Clear answer edit": ""
+      }
+    },
+    "prompt.submit": {
+      "titles": {
+        "Submit prompt": ""
+      }
+    },
+    "prompt.history.previous": {
+      "titles": {
+        "Previous prompt history": "",
+        "Previous history item": ""
+      }
+    },
+    "prompt.history.next": {
+      "titles": {
+        "Next prompt history": "",
+        "Next history item": ""
+      }
+    },
+    "session.line.up": {
+      "titles": {
+        "Line up": "",
+        "Scroll messages up by one line": ""
+      }
+    },
+    "session.line.down": {
+      "titles": {
+        "Line down": "",
+        "Scroll messages down by one line": ""
+      }
+    },
+    "session.page.up": {
+      "titles": {
+        "Page up": "",
+        "Scroll messages up by one page": ""
+      }
+    },
+    "session.page.down": {
+      "titles": {
+        "Page down": "",
+        "Scroll messages down by one page": ""
+      }
+    },
+    "session.half.page.up": {
+      "titles": {
+        "Half page up": "",
+        "Scroll messages up by half page": ""
+      }
+    },
+    "session.half.page.down": {
+      "titles": {
+        "Half page down": "",
+        "Scroll messages down by half page": ""
+      }
+    },
+    "session.first": {
+      "titles": {
+        "First message": "",
+        "Navigate to first message": ""
+      }
+    },
+    "session.last": {
+      "titles": {
+        "Last message": "",
+        "Navigate to last message": ""
+      }
+    },
+    "session.message.previous": {
+      "titles": {
+        "Previous message": "",
+        "Navigate to previous message": ""
+      }
+    },
+    "session.message.next": {
+      "titles": {
+        "Next message": "",
+        "Navigate to next message": ""
+      }
+    },
+    "session.undo": {
+      "titles": {
+        "Undo": "",
+        "Undo message": "",
+        "Undo previous message": ""
+      },
+      "description": ""
+    },
+    "session.redo": {
+      "titles": {
+        "Redo": "",
+        "Redo message": ""
+      },
+      "description": ""
+    },
+    "terminal.toggle": {
+      "titles": {
+        "Toggle terminal pane": "",
+        "Hide terminal pane": "",
+        "Show terminal pane": ""
+      },
+      "description": ""
+    },
+    "terminal.close": {
+      "titles": {
+        "Close terminal pane": ""
+      },
+      "description": ""
+    },
+    "terminal.select": {
+      "titles": {
+        "Select terminal": ""
+      },
+      "description": ""
+    },
+    "diff.open": {
+      "titles": {
+        "Open diff viewer": ""
+      },
+      "description": ""
+    },
+    "diff.close": {
+      "titles": {
+        "Close diff viewer": ""
+      }
+    },
+    "permission.mode": {
+      "titles": {
+        "Enable auto-approve permissions": "",
+        "Disable auto-approve permissions": "",
+        "Toggle auto-approve permissions": ""
+      },
+      "description": ""
+    }
+  },
+  "groups": {
+    "Agent": "",
+    "Session": "",
+    "Model": "",
+    "Theme": "",
+    "System": "",
+    "Integration": "",
+    "Prompt": "",
+    "Terminal": "",
+    "Diff": "",
+    "Permission": "",
+    "Plugins": "",
+    "Workspace": "",
+    "Navigation": "",
+    "History": "",
+    "Autocomplete": "",
+    "Execute": "",
+    "Debug": "",
+    "VCS": "",
+    "Form": "",
+    "Composer": "",
+    "Dialog": "",
+    "Suggested": "",
+    "Provider": "",
+    "Providers": "",
+    "Question": ""
+  },
+  "slash_commands": {
+    "/new": "",
+    "/clear": "",
+    "/continue": "",
+    "/resume": "",
+    "/sessions": "",
+    "/agents": "",
+    "/models": "",
+    "/themes": "",
+    "/settings": "",
+    "/help": "",
+    "/exit": "",
+    "/quit": "",
+    "/q": "",
+    "/share": "",
+    "/unshare": "",
+    "/fork": "",
+    "/copy": "",
+    "/export": "",
+    "/rename": "",
+    "/delete": "",
+    "/compact": "",
+    "/undo": "",
+    "/redo": "",
+    "/terminal": "",
+    "/diff": "",
+    "/cd": "",
+    "/reload": "",
+    "/update": "",
+    "/plugins": "",
+    "/mcps": "",
+    "/connect": "",
+    "/stats": "",
+    "/status": "",
+    "/debug": "",
+    "/pair": "",
+    "/web": "",
+    "/open": "",
+    "/project": "",
+    "/projects": "",
+    "/worktrees": "",
+    "/skills": "",
+    "/effort": "",
+    "/thinking": "",
+    "/toggle-thinking": "",
+    "/variants": "",
+    "/timeline": "",
+    "/editor": "",
+    "/highlights": "",
+    "/restart": "",
+    "/btw": "",
+    "/usage": "",
+    "/upgrade": ""
+  }
+}

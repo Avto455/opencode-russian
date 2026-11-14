@@ -1,0 +1,13 @@
+{
+  "name": "English",
+  "language_picker": {
+    "question": "Choose OpenCode interface language",
+    "option_descriptions": {
+      "en": "Switch to the original English interface",
+      "ru": "Switch to the Russian interface"
+    }
+  },
+  "commands": {},
+  "groups": {},
+  "slash_commands": {}
+}

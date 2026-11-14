@@ -1,0 +1,35 @@
+{
+  "name": "opencode-russian",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenCode V2 Russian Language Pack — русификация интерфейса OpenCode 2",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/index.ts",
+    "./tui": "./src/tui.tsx"
+  },
+  "files": [
+    "src",
+    "i18n",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "opencode": ">=2.0.0"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.2.7",
+    "effect": "^4.0.0-rc.112"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.8.4",
+    "@opentui/solid": ">=0.8.4",
+    "solid-js": ">=1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  }
+}

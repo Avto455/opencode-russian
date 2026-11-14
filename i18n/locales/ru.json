@@ -1,0 +1,1244 @@
+{
+  "name": "Русский",
+  "language_picker": {
+    "question": "Выберите язык интерфейса",
+    "option_descriptions": {
+      "en": "Вернуться к оригинальному английскому интерфейсу",
+      "ru": "Переключиться на русский интерфейс"
+    }
+  },
+  "commands": {
+    "agent.cycle": {
+      "titles": {
+        "Next agent": "Следующий агент",
+        "Agent cycle": "Следующий агент"
+      },
+      "description": "Переключиться на следующего агента"
+    },
+    "agent.cycle.reverse": {
+      "titles": {
+        "Previous agent": "Предыдущий агент",
+        "Agent cycle reverse": "Предыдущий агент"
+      },
+      "description": "Переключиться на предыдущего агента"
+    },
+    "agent.list": {
+      "titles": {
+        "Switch agent": "Сменить агента",
+        "List agents": "Список агентов"
+      },
+      "description": "Выбрать другого агента"
+    },
+    "app.clear": {
+      "titles": {
+        "Clear the screen in mini": "Очистить экран в mini",
+        "Clear screen": "Очистить экран"
+      }
+    },
+    "app.console": {
+      "titles": {
+        "Toggle console": "Переключить консоль"
+      }
+    },
+    "app.debug": {
+      "titles": {
+        "Toggle debug panel": "Переключить панель отладки"
+      }
+    },
+    "app.exit": {
+      "titles": {
+        "Exit the application": "Выйти из приложения",
+        "Exit the app": "Выйти из приложения",
+        "Close diff viewer": "Закрыть просмотр различий",
+        "Dismiss form": "Закрыть форму",
+        "Cancel permission rejection": "Отменить отклонение разрешения",
+        "Reject permission": "Отклонить разрешение"
+      }
+    },
+    "app.scrap": {
+      "titles": {
+        "Open scrap screen": "Открыть экран заметок"
+      }
+    },
+    "app.storybook": {
+      "titles": {
+        "Open storybook": "Открыть Storybook"
+      }
+    },
+    "app.toggle.animations": {
+      "titles": {
+        "Toggle animations": "Переключить анимации",
+        "Disable animations": "Отключить анимации",
+        "Enable animations": "Включить анимации"
+      }
+    },
+    "app.toggle.diffwrap": {
+      "titles": {
+        "Toggle diff wrapping": "Переключить перенос строк в diff",
+        "Disable diff wrapping": "Отключить перенос строк в diff",
+        "Enable diff wrapping": "Включить перенос строк в diff"
+      }
+    },
+    "app.toggle.file_context": {
+      "titles": {
+        "Toggle file context": "Переключить контекст файлов",
+        "Disable file context": "Отключить контекст файлов",
+        "Enable file context": "Включить контекст файлов"
+      }
+    },
+    "app.toggle.paste_summary": {
+      "titles": {
+        "Toggle paste summary": "Переключить.summary вставки",
+        "Disable paste summary": "Отключить summary вставки",
+        "Enable paste summary": "Включить summary вставки"
+      }
+    },
+    "command.palette.show": {
+      "titles": {
+        "Show command palette": "Показать командную палитру",
+        "List available commands": "Показать доступные команды",
+        "Open command palette": "Открыть командную палитру"
+      },
+      "description": "Открыть командную палитру для поиска и выполнения команд"
+    },
+    "composer.shell.down": {
+      "titles": {
+        "Next shell": "Следующий shell"
+      }
+    },
+    "composer.shell.kill": {
+      "titles": {
+        "Kill shell command": "Убить shell-команду"
+      }
+    },
+    "composer.shell.select": {
+      "titles": {
+        "View shell output": "Посмотреть вывод shell"
+      }
+    },
+    "composer.shell.up": {
+      "titles": {
+        "Previous shell": "Предыдущий shell"
+      }
+    },
+    "composer.subagent.down": {
+      "titles": {
+        "Next subagent": "Следующий под-агент"
+      }
+    },
+    "composer.subagent.interrupt": {
+      "titles": {
+        "Interrupt subagent": "Прервать под-агента"
+      }
+    },
+    "composer.subagent.select": {
+      "titles": {
+        "Navigate to subagent": "Перейти к под-агенту"
+      }
+    },
+    "composer.subagent.toggle-activity": {
+      "titles": {
+        "Toggle active subagents": "Переключить активных под-агентов"
+      }
+    },
+    "composer.subagent.up": {
+      "titles": {
+        "Previous subagent": "Предыдущий под-агент"
+      }
+    },
+    "composer.terminal.down": {
+      "titles": {
+        "Next terminal": "Следующий терминал"
+      }
+    },
+    "composer.terminal.select": {
+      "titles": {
+        "Select terminal": "Выбрать терминал"
+      }
+    },
+    "composer.terminal.up": {
+      "titles": {
+        "Previous terminal": "Предыдущий терминал"
+      }
+    },
+    "diff.close": {
+      "titles": {
+        "Close diff viewer": "Закрыть просмотр различий"
+      }
+    },
+    "diff.collapse": {
+      "titles": {
+        "Collapse diff viewer item": "Свернуть элемент diff",
+        "Deprecated: file tree is mouse-controlled": "Устарело: дерево файлов управляется мышью"
+      }
+    },
+    "diff.down": {
+      "titles": {
+        "Move diff viewer down": "Переместить просмотр diff вниз"
+      }
+    },
+    "diff.expand": {
+      "titles": {
+        "Expand diff viewer item": "Развернуть элемент diff",
+        "Deprecated: file tree is mouse-controlled": "Устарело: дерево файлов управляется мышью"
+      }
+    },
+    "diff.expand_all": {
+      "titles": {
+        "Expand all diff viewer folders": "Развернуть все папки просмотра diff",
+        "Deprecated: file tree is mouse-controlled": "Устарело: дерево файлов управляется мышью"
+      }
+    },
+    "diff.first": {
+      "titles": {
+        "Go to the start of the diff": "Перейти к началу diff"
+      }
+    },
+    "diff.half_page.down": {
+      "titles": {
+        "Scroll diff viewer down half a page": "Прокрутить diff вниз на полстраницы",
+        "Scroll down half a page": "Прокрутить вниз на полстраницы"
+      }
+    },
+    "diff.half_page.up": {
+      "titles": {
+        "Scroll diff viewer up half a page": "Прокрутить diff вверх на полстраницы",
+        "Scroll up half a page": "Прокрутить вверх на полстраницы"
+      }
+    },
+    "diff.help": {
+      "titles": {
+        "Show more diff viewer shortcuts": "Показать больше горячих клавиш diff"
+      }
+    },
+    "diff.last": {
+      "titles": {
+        "Go to the end of the diff": "Перейти к концу diff"
+      }
+    },
+    "diff.mark_reviewed": {
+      "titles": {
+        "Toggle selected diff file reviewed": "Переключить статус \"прочитано\" для выбранного файла diff"
+      }
+    },
+    "diff.next_file": {
+      "titles": {
+        "Jump to next diff file": "Перейти к следующему файлу diff"
+      }
+    },
+    "diff.next_hunk": {
+      "titles": {
+        "Jump to next diff hunk": "Перейти к следующему блоку diff"
+      }
+    },
+    "diff.open": {
+      "titles": {
+        "Open diff viewer": "Открыть просмотр различий"
+      },
+      "description": "Открыть просмотрщик изменений (diff)"
+    },
+    "diff.page.down": {
+      "titles": {
+        "Page diff viewer down": "Листать diff вниз"
+      }
+    },
+    "diff.page.up": {
+      "titles": {
+        "Page diff viewer up": "Листать diff вверх"
+      }
+    },
+    "diff.previous_file": {
+      "titles": {
+        "Jump to previous diff file": "Перейти к предыдущему файлу diff"
+      }
+    },
+    "diff.previous_hunk": {
+      "titles": {
+        "Jump to previous diff hunk": "Перейти к предыдущему блоку diff"
+      }
+    },
+    "diff.single_patch": {
+      "titles": {
+        "Toggle single patch view": "Переключить вид единственного патча"
+      }
+    },
+    "diff.switch_focus": {
+      "titles": {
+        "Switch diff viewer focus": "Переключить фокус просмотра diff",
+        "Deprecated: keyboard navigation always controls the diff": "Устарело: клавиатурная навигация всегда управляет diff"
+      }
+    },
+    "diff.switch_source": {
+      "titles": {
+        "Switch diff viewer source": "Переключить источник diff"
+      }
+    },
+    "diff.toggle": {
+      "titles": {
+        "Toggle diff viewer item": "Переключить элемент diff",
+        "Deprecated: file tree is mouse-controlled": "Устарело: дерево файлов управляется мышью"
+      }
+    },
+    "diff.toggle_file_tree": {
+      "titles": {
+        "Toggle diff viewer file tree": "Переключить дерево файлов diff"
+      }
+    },
+    "diff.toggle_fullscreen": {
+      "titles": {
+        "Toggle diff viewer full screen": "Переключить полноэкранный режим diff"
+      }
+    },
+    "diff.toggle_view": {
+      "titles": {
+        "Toggle diff viewer split or unified view": "Переключить разделённый или унифицированный вид diff"
+      }
+    },
+    "diff.up": {
+      "titles": {
+        "Move diff viewer up": "Переместить просмотр diff вверх"
+      }
+    },
+    "docs.open": {
+      "titles": {
+        "Open documentation": "Открыть документацию",
+        "Open docs": "Открыть документацию"
+      }
+    },
+    "help.show": {
+      "titles": {
+        "Help": "Помощь",
+        "Open help dialog": "Открыть справку"
+      },
+      "description": "Открыть диалог справки с горячими клавишами"
+    },
+    "location.reload": {
+      "titles": {
+        "Reload configuration": "Перезагрузить конфигурацию",
+        "Reload locations": "Перезагрузить расположения"
+      }
+    },
+    "mcp.list": {
+      "titles": {
+        "MCP servers": "MCP серверы",
+        "List MCP servers": "Список MCP серверов"
+      },
+      "description": "Показать подключенные MCP серверы"
+    },
+    "messages.copy": {
+      "titles": {
+        "Copy message": "Копировать сообщение",
+        "Copy last assistant message": "Копировать последнее сообщение ассистента"
+      }
+    },
+    "model.cycle_favorite": {
+      "titles": {
+        "Next favorite model": "Следующая избранная модель",
+        "Favorite cycle": "Следующая избранная"
+      }
+    },
+    "model.cycle_favorite_reverse": {
+      "titles": {
+        "Previous favorite model": "Предыдущая избранная модель",
+        "Favorite cycle reverse": "Предыдущая избранная"
+      }
+    },
+    "model.cycle_recent": {
+      "titles": {
+        "Next recently used model": "Следующая недавно используемая модель",
+        "Model cycle": "Следующая модель"
+      },
+      "description": "Переключиться на следующую недавно используемую модель"
+    },
+    "model.cycle_recent_reverse": {
+      "titles": {
+        "Previous recently used model": "Предыдущая недавно используемая модель",
+        "Model cycle reverse": "Предыдущая модель"
+      },
+      "description": "Переключиться на предыдущую недавно используемую модель"
+    },
+    "model.dialog.favorite": {
+      "titles": {
+        "Toggle model favorite status": "Переключить статус избранного для модели",
+        "Favorite": "В избранное"
+      }
+    },
+    "model.dialog.provider": {
+      "titles": {
+        "Open provider list from model dialog": "Открыть список провайдеров из диалога модели",
+        "View all integrations": "Посмотреть все интеграции",
+        "Connect an integration": "Подключить интеграцию"
+      }
+    },
+    "model.dialog.usage": {
+      "titles": {
+        "Open usage limits from model dialog": "Открыть лимиты использования из диалога модели"
+      }
+    },
+    "model.list": {
+      "titles": {
+        "Switch model": "Сменить модель",
+        "List available models": "Список доступных моделей"
+      },
+      "description": "Выбрать другую языковую модель"
+    },
+    "open.menu": {
+      "titles": {
+        "Open recent sessions and projects": "Открыть недавние сессии и проекты",
+        "Open session or project": "Открыть сессию или проект"
+      }
+    },
+    "opencode.debug": {
+      "titles": {
+        "View debug info": "Посмотреть отладочную информацию"
+      }
+    },
+    "opencode.highlights": {
+      "titles": {
+        "Show release highlights": "Показать основные изменения релиза"
+      }
+    },
+    "opencode.settings": {
+      "titles": {
+        "Open settings": "Открыть настройки"
+      },
+      "description": "Открыть настройки OpenCode"
+    },
+    "opencode.status": {
+      "titles": {
+        "View status": "Посмотреть статус"
+      },
+      "description": "Показать текущий статус OpenCode"
+    },
+    "opencode.update": {
+      "titles": {
+        "Update OpenCode": "Обновить OpenCode"
+      },
+      "description": "Проверить и установить обновления OpenCode"
+    },
+    "pane.focus.left": {
+      "titles": {
+        "Focus session pane": "Сфокусировать панель сессии"
+      }
+    },
+    "pane.focus.right": {
+      "titles": {
+        "Focus session pane": "Сфокусировать панель сессии",
+        "Focus terminal pane": "Сфокусировать панель терминала",
+        "Focus right pane": "Сфокусировать правую панель"
+      }
+    },
+    "permission.mode": {
+      "titles": {
+        "Enable auto-approve permissions": "Включить авто-подтверждение разрешений",
+        "Disable auto-approve permissions": "Выключить авто-подтверждение разрешений",
+        "Toggle auto-approve permissions": "Переключить авто-подтверждение разрешений"
+      },
+      "description": "Переключить автоматическое подтверждение разрешений для текущей сессии"
+    },
+    "plugins.install": {
+      "titles": {
+        "Install plugin": "Установить плагин"
+      },
+      "description": "Установить новый плагин из реестра"
+    },
+    "plugins.list": {
+      "titles": {
+        "Plugins": "Плагины",
+        "Open plugin manager dialog": "Открыть менеджер плагинов"
+      },
+      "description": "Управление установленными плагинами"
+    },
+    "plugins.toggle": {
+      "titles": {
+        "Toggle plugin": "Переключить плагин"
+      }
+    },
+    "prompt.autocomplete.complete": {
+      "titles": {
+        "Complete autocomplete item": "Завершить элемент автозаполнения"
+      }
+    },
+    "prompt.autocomplete.destructive": {
+      "titles": {
+        "Confirm autocomplete action": "Подтвердить действие автозаполнения"
+      }
+    },
+    "prompt.autocomplete.hide": {
+      "titles": {
+        "Hide autocomplete": "Скрыть автозаполнение"
+      }
+    },
+    "prompt.autocomplete.next": {
+      "titles": {
+        "Move to next autocomplete item": "Перейти к следующему элементу автозаполнения",
+        "Next autocomplete item": "Следующий элемент автозаполнения"
+      }
+    },
+    "prompt.autocomplete.prev": {
+      "titles": {
+        "Move to previous autocomplete item": "Перейти к предыдущему элементу автозаполнения",
+        "Previous autocomplete item": "Предыдущий элемент автозаполнения"
+      }
+    },
+    "prompt.autocomplete.select": {
+      "titles": {
+        "Select autocomplete item": "Выбрать элемент автозаполнения"
+      }
+    },
+    "prompt.clear": {
+      "titles": {
+        "Clear prompt": "Очистить промпт",
+        "Clear input field": "Очистить поле ввода",
+        "Dismiss autocomplete": "Закрыть автозаполнение",
+        "Clear prompt or exit": "Очистить промпт или выйти",
+        "Clear answer edit": "Очистить редактирование ответа"
+      }
+    },
+    "prompt.editor": {
+      "titles": {
+        "Open editor": "Открыть редактор",
+        "Open external editor": "Открыть внешний редактор"
+      },
+      "description": "Открыть текущий промпт во внешнем редакторе"
+    },
+    "prompt.editor_context.clear": {
+      "titles": {
+        "Clear editor context": "Очистить контекст редактора",
+        "Remove editor context": "Удалить контекст редактора"
+      }
+    },
+    "prompt.history.next": {
+      "titles": {
+        "Next prompt history": "Следующий промпт из истории",
+        "Next history item": "Следующий элемент истории"
+      }
+    },
+    "prompt.history.previous": {
+      "titles": {
+        "Previous prompt history": "Предыдущий промпт из истории",
+        "Previous history item": "Предыдущий элемент истории"
+      }
+    },
+    "prompt.images.view": {
+      "titles": {
+        "View image attachments": "Просмотреть вложения изображений"
+      }
+    },
+    "prompt.paste": {
+      "titles": {
+        "Paste from clipboard": "Вставить из буфера обмена",
+        "Paste": "Вставить"
+      }
+    },
+    "prompt.queue": {
+      "titles": {
+        "Queue prompt": "Поставить промпт в очередь"
+      }
+    },
+    "prompt.skills": {
+      "titles": {
+        "Open skill selector": "Открыть выбор навыка",
+        "Skills": "Навыки"
+      }
+    },
+    "prompt.stash": {
+      "titles": {
+        "Stash prompt": "Сохранить промпт во временное хранилище"
+      }
+    },
+    "prompt.stash.list": {
+      "titles": {
+        "List stashed prompts": "Список сохранённых промптов",
+        "Stash list": "Список временного хранилища"
+      }
+    },
+    "prompt.stash.pop": {
+      "titles": {
+        "Pop stashed prompt": "Извлечь сохранённый промпт",
+        "Stash pop": "Извлечь из хранилища"
+      }
+    },
+    "prompt.submit": {
+      "titles": {
+        "Submit prompt": "Отправить промпт"
+      }
+    },
+    "provider.connect": {
+      "titles": {
+        "Connect an integration": "Подключить интеграцию",
+        "Connect integration": "Подключить интеграцию"
+      },
+      "description": "Подключить нового провайдера моделей"
+    },
+    "queued_prompt.delete": {
+      "titles": {
+        "Delete queued prompt": "Удалить промпт из очереди",
+        "Delete pending prompt": "Удалить ожидающий промпт"
+      }
+    },
+    "queued_prompt.undo": {
+      "titles": {
+        "Undo queued prompt": "Отменить промпт в очереди",
+        "Undo": "Отменить"
+      }
+    },
+    "server.pair": {
+      "titles": {
+        "Pair device": "Сопрячь устройство"
+      }
+    },
+    "service.restart": {
+      "titles": {
+        "Restart service": "Перезапустить сервис"
+      }
+    },
+    "session.aside": {
+      "titles": {
+        "Ask a side question": "Задать дополнительный вопрос"
+      }
+    },
+    "session.background": {
+      "titles": {
+        "Background blocking session tools": "Отправить в фон блокирующие инструменты сессии",
+        "Background blocking tools": "Отправить в фон блокирующие инструменты",
+        "Background subagents": "Отправить в фон под-агентов"
+      }
+    },
+    "session.cd": {
+      "titles": {
+        "Change working directory": "Сменить рабочую директорию"
+      }
+    },
+    "session.child.first": {
+      "titles": {
+        "Toggle subagent picker": "Переключить выбор под-агента",
+        "View subagents": "Посмотреть под-агентов"
+      }
+    },
+    "session.child.next": {
+      "titles": {
+        "Go to next child session": "Перейти к следующей дочерней сессии"
+      }
+    },
+    "session.child.previous": {
+      "titles": {
+        "Go to previous child session": "Перейти к предыдущей дочерней сессии"
+      }
+    },
+    "session.clear": {
+      "titles": {
+        "Clear session": "Очистить сессию"
+      }
+    },
+    "session.compact": {
+      "titles": {
+        "Compact session": "Сжать сессию",
+        "Compact the session": "Сжать контекст сессии"
+      },
+      "description": "Сжать контекст сессии для экономии токенов"
+    },
+    "session.copy": {
+      "titles": {
+        "Copy session transcript": "Копировать историю сессии"
+      },
+      "description": "Копировать полную историю сообщений в буфер обмена"
+    },
+    "session.copy.id": {
+      "titles": {
+        "Copy session ID": "Копировать ID сессии"
+      }
+    },
+    "session.delete": {
+      "titles": {
+        "Delete session": "Удалить сессию",
+        "delete": "Удалить сессию"
+      },
+      "description": "Удалить текущую сессию"
+    },
+    "session.export": {
+      "titles": {
+        "Export session transcript": "Экспорт истории сессии",
+        "Export session to editor": "Экспорт сессии в редактор"
+      },
+      "description": "Экспортировать историю сессии в файл"
+    },
+    "session.first": {
+      "titles": {
+        "First message": "Первое сообщение",
+        "Navigate to first message": "Перейти к первому сообщению"
+      }
+    },
+    "session.fork": {
+      "titles": {
+        "Fork session": "Создать ответвление сессии",
+        "Fork session from message": "Создать ветку от сообщения"
+      },
+      "description": "Создать новую сессию, ответвленную от текущего сообщения"
+    },
+    "session.half.page.down": {
+      "titles": {
+        "Half page down": "Половина страницы вниз",
+        "Scroll messages down by half page": "Прокрутить сообщения на половину страницы вниз"
+      }
+    },
+    "session.half.page.up": {
+      "titles": {
+        "Half page up": "Половина страницы вверх",
+        "Scroll messages up by half page": "Прокрутить сообщения на половину страницы вверх"
+      }
+    },
+    "session.interrupt": {
+      "titles": {
+        "Interrupt session": "Прервать сессию",
+        "Interrupt current session": "Прервать текущую сессию"
+      },
+      "description": "Прервать выполнение текущей сессии"
+    },
+    "session.last": {
+      "titles": {
+        "Last message": "Последнее сообщение",
+        "Navigate to last message": "Перейти к последнему сообщению"
+      }
+    },
+    "session.line.down": {
+      "titles": {
+        "Line down": "Строка вниз",
+        "Scroll messages down by one line": "Прокрутить сообщения на строку вниз"
+      }
+    },
+    "session.line.up": {
+      "titles": {
+        "Line up": "Строка вверх",
+        "Scroll messages up by one line": "Прокрутить сообщения на строку вверх"
+      }
+    },
+    "session.list": {
+      "titles": {
+        "Switch session": "Переключить сессию",
+        "List all sessions": "Показать все сессии"
+      },
+      "description": "Переключиться на другую сессию"
+    },
+    "session.message.next": {
+      "titles": {
+        "Next message": "Следующее сообщение",
+        "Navigate to next message": "Перейти к следующему сообщению"
+      }
+    },
+    "session.message.previous": {
+      "titles": {
+        "Previous message": "Предыдущее сообщение",
+        "Navigate to previous message": "Перейти к предыдущему сообщению"
+      }
+    },
+    "session.message.user.next": {
+      "titles": {
+        "Navigate to next user message": "Перейти к следующему сообщению пользователя",
+        "Next user message": "Следующее сообщение пользователя"
+      }
+    },
+    "session.message.user.previous": {
+      "titles": {
+        "Navigate to previous user message": "Перейти к предыдущему сообщению пользователя",
+        "Previous user message": "Предыдущее сообщение пользователя"
+      }
+    },
+    "session.messages_last_user": {
+      "titles": {
+        "Navigate to last user message": "Перейти к последнему сообщению пользователя",
+        "Jump to last user message": "Перепрыгнуть к последнему сообщению пользователя"
+      }
+    },
+    "session.move": {
+      "titles": {
+        "Manage workspaces": "Управлять рабочими пространствами",
+        "Move session": "Переместить сессию"
+      }
+    },
+    "session.new": {
+      "titles": {
+        "New session": "Новая сессия",
+        "Create a new session": "Создать новую сессию"
+      },
+      "description": "Создать новую сессию"
+    },
+    "session.page.down": {
+      "titles": {
+        "Page down": "Страница вниз",
+        "Scroll messages down by one page": "Прокрутить сообщения на страницу вниз"
+      }
+    },
+    "session.page.up": {
+      "titles": {
+        "Page up": "Страница вверх",
+        "Scroll messages up by one page": "Прокрутить сообщения на страницу вверх"
+      }
+    },
+    "session.parent": {
+      "titles": {
+        "Go to parent session": "Перейти к родительской сессии"
+      }
+    },
+    "session.pin.toggle": {
+      "titles": {
+        "Pin or unpin session in the session list": "Закрепить или открепить сессию в списке"
+      }
+    },
+    "session.queued_prompts": {
+      "titles": {
+        "Manage queued prompts": "Управлять промптами в очереди",
+        "View pending prompts": "Посмотреть ожидающие промпты",
+        "View queued prompts": "Посмотреть промпты в очереди"
+      }
+    },
+    "session.quick_switch.1": {
+      "titles": {
+        "Switch to session in quick slot 1": "Переключиться на сессию в быстром слоте 1"
+      }
+    },
+    "session.quick_switch.2": {
+      "titles": {
+        "Switch to session in quick slot 2": "Переключиться на сессию в быстром слоте 2"
+      }
+    },
+    "session.quick_switch.3": {
+      "titles": {
+        "Switch to session in quick slot 3": "Переключиться на сессию в быстром слоте 3"
+      }
+    },
+    "session.quick_switch.4": {
+      "titles": {
+        "Switch to session in quick slot 4": "Переключиться на сессию в быстром слоте 4"
+      }
+    },
+    "session.quick_switch.5": {
+      "titles": {
+        "Switch to session in quick slot 5": "Переключиться на сессию в быстром слоте 5"
+      }
+    },
+    "session.quick_switch.6": {
+      "titles": {
+        "Switch to session in quick slot 6": "Переключиться на сессию в быстром слоте 6"
+      }
+    },
+    "session.quick_switch.7": {
+      "titles": {
+        "Switch to session in quick slot 7": "Переключиться на сессию в быстром слоте 7"
+      }
+    },
+    "session.quick_switch.8": {
+      "titles": {
+        "Switch to session in quick slot 8": "Переключиться на сессию в быстром слоте 8"
+      }
+    },
+    "session.quick_switch.9": {
+      "titles": {
+        "Switch to session in quick slot 9": "Переключиться на сессию в быстром слоте 9"
+      }
+    },
+    "session.redo": {
+      "titles": {
+        "Redo": "Повторить",
+        "Redo message": "Повторить сообщение"
+      },
+      "description": "Повторить отменённое сообщение"
+    },
+    "session.rename": {
+      "titles": {
+        "Rename session": "Переименовать сессию",
+        "rename": "Переименовать сессию"
+      },
+      "description": "Переименовать текущую сессию"
+    },
+    "session.share": {
+      "titles": {
+        "Share session": "Поделиться сессией",
+        "Share current session": "Поделиться текущей сессией"
+      },
+      "description": "Поделиться текущей сессией"
+    },
+    "session.sidebar.toggle": {
+      "titles": {
+        "Hide sidebar": "Скрыть боковую панель",
+        "Show sidebar": "Показать боковую панель",
+        "Toggle sidebar": "Переключить боковую панель"
+      },
+      "description": "Переключить видимость боковой панели"
+    },
+    "session.tab.close": {
+      "titles": {
+        "Close current session tab": "Закрыть текущую вкладку сессии",
+        "Close tab": "Закрыть вкладку"
+      }
+    },
+    "session.tab.history.back": {
+      "titles": {
+        "Go back in session tab history": "Назад в истории вкладок сессии"
+      }
+    },
+    "session.tab.history.forward": {
+      "titles": {
+        "Go forward in session tab history": "Вперёд в истории вкладок сессии"
+      }
+    },
+    "session.tab.next": {
+      "titles": {
+        "Switch to next open session tab": "Переключиться на следующую открытую вкладку сессии",
+        "Next tab": "Следующая вкладка"
+      }
+    },
+    "session.tab.next_unread": {
+      "titles": {
+        "Switch to next unread session tab": "Переключиться на следующую непрочитанную вкладку сессии",
+        "Next unread tab": "Следующая непрочитанная вкладка"
+      }
+    },
+    "session.tab.previous": {
+      "titles": {
+        "Switch to previous open session tab": "Переключиться на предыдущую открытую вкладку сессии",
+        "Previous tab": "Предыдущая вкладка"
+      }
+    },
+    "session.tab.previous_unread": {
+      "titles": {
+        "Switch to previous unread session tab": "Переключиться на предыдущую непрочитанную вкладку сессии",
+        "Previous unread tab": "Предыдущая непрочитанная вкладка"
+      }
+    },
+    "session.tab.reopen": {
+      "titles": {
+        "Reopen last closed session tab": "Переоткрыть последнюю закрытую вкладку сессии",
+        "Reopen closed tab": "Переоткрыть закрытую вкладку"
+      }
+    },
+    "session.tab.select.1": {
+      "titles": {
+        "Switch to session tab 1": "Переключиться на вкладку сессии 1",
+        "Switch to tab 1": "Переключиться на вкладку 1"
+      }
+    },
+    "session.tab.select.10": {
+      "titles": {
+        "Switch to session tab 10": "Переключиться на вкладку сессии 10",
+        "Switch to tab 10": "Переключиться на вкладку 10"
+      }
+    },
+    "session.tab.select.2": {
+      "titles": {
+        "Switch to session tab 2": "Переключиться на вкладку сессии 2",
+        "Switch to tab 2": "Переключиться на вкладку 2"
+      }
+    },
+    "session.tab.select.3": {
+      "titles": {
+        "Switch to session tab 3": "Переключиться на вкладку сессии 3",
+        "Switch to tab 3": "Переключиться на вкладку 3"
+      }
+    },
+    "session.tab.select.4": {
+      "titles": {
+        "Switch to session tab 4": "Переключиться на вкладку сессии 4",
+        "Switch to tab 4": "Переключиться на вкладку 4"
+      }
+    },
+    "session.tab.select.5": {
+      "titles": {
+        "Switch to session tab 5": "Переключиться на вкладку сессии 5",
+        "Switch to tab 5": "Переключиться на вкладку 5"
+      }
+    },
+    "session.tab.select.6": {
+      "titles": {
+        "Switch to session tab 6": "Переключиться на вкладку сессии 6",
+        "Switch to tab 6": "Переключиться на вкладку 6"
+      }
+    },
+    "session.tab.select.7": {
+      "titles": {
+        "Switch to session tab 7": "Переключиться на вкладку сессии 7",
+        "Switch to tab 7": "Переключиться на вкладку 7"
+      }
+    },
+    "session.tab.select.8": {
+      "titles": {
+        "Switch to session tab 8": "Переключиться на вкладку сессии 8",
+        "Switch to tab 8": "Переключиться на вкладку 8"
+      }
+    },
+    "session.tab.select.9": {
+      "titles": {
+        "Switch to session tab 9": "Переключиться на вкладку сессии 9",
+        "Switch to tab 9": "Переключиться на вкладку 9"
+      }
+    },
+    "session.terminal": {
+      "titles": {
+        "New terminal": "Новый терминал"
+      }
+    },
+    "session.timeline": {
+      "titles": {
+        "Show session timeline": "Показать временную шкалу сессии",
+        "Jump to message": "Перейти к сообщению"
+      }
+    },
+    "session.toggle.exploration_grouping": {
+      "titles": {
+        "Toggle related tool call grouping": "Переключить группировку связанных вызовов инструментов",
+        "Show tool calls individually": "Показывать вызовы инструментов по отдельности",
+        "Group related tool calls": "Группировать связанные вызовы инструментов"
+      }
+    },
+    "session.toggle.scrollbar": {
+      "titles": {
+        "Toggle session scrollbar": "Переключить полосу прокрутки сессии"
+      }
+    },
+    "session.toggle.thinking": {
+      "titles": {
+        "Toggle thinking blocks visibility": "Переключить видимость блоков мышления",
+        "Expand thinking": "Развернуть мышление"
+      }
+    },
+    "session.undo": {
+      "titles": {
+        "Undo": "Отменить",
+        "Undo message": "Отменить сообщение",
+        "Undo previous message": "Отменить предыдущее сообщение"
+      },
+      "description": "Отменить последнее отправленное сообщение"
+    },
+    "session.unshare": {
+      "titles": {
+        "Unshare session": "Отменить доступ к сессии",
+        "Unshare current session": "Отменить доступ к текущей сессии"
+      },
+      "description": "Отменить публичный доступ к сессии"
+    },
+    "session.verbosity.cycle": {
+      "titles": {
+        "Cycle transcript verbosity": "Переключить детализацию транскрипта"
+      }
+    },
+    "stash.delete": {
+      "titles": {
+        "Delete stash entry": "Удалить запись из хранилища"
+      }
+    },
+    "stats.open": {
+      "titles": {
+        "Usage statistics": "Статистика использования"
+      }
+    },
+    "terminal.close": {
+      "titles": {
+        "Close terminal pane": "Закрыть терминал"
+      },
+      "description": "Закрыть панель терминала"
+    },
+    "terminal.select": {
+      "titles": {
+        "Select terminal": "Выбрать терминал"
+      },
+      "description": "Выбрать активный терминал"
+    },
+    "terminal.suspend": {
+      "titles": {
+        "Suspend terminal": "Приостановить терминал"
+      }
+    },
+    "terminal.title.toggle": {
+      "titles": {
+        "Toggle terminal title": "Переключить заголовок терминала",
+        "Disable terminal title": "Отключить заголовок терминала",
+        "Enable terminal title": "Включить заголовок терминала"
+      }
+    },
+    "terminal.toggle": {
+      "titles": {
+        "Toggle terminal pane": "Переключить терминал",
+        "Hide terminal pane": "Скрыть терминал",
+        "Show terminal pane": "Показать терминал"
+      },
+      "description": "Показать или скрыть панель терминала"
+    },
+    "theme.mode.lock": {
+      "titles": {
+        "Lock or unlock theme mode": "Заблокировать или разблокировать режим темы",
+        "Unlock theme mode": "Разблокировать режим темы",
+        "Lock theme mode": "Заблокировать режим темы"
+      }
+    },
+    "theme.switch": {
+      "titles": {
+        "Switch theme": "Сменить тему",
+        "List available themes": "Список доступных тем"
+      },
+      "description": "Выбрать другую цветовую тему"
+    },
+    "theme.switch_mode": {
+      "titles": {
+        "Switch to light mode": "Переключить на светлую тему",
+        "Switch between light and dark theme mode": "Переключить между светлой и тёмной темой",
+        "Switch to dark mode": "Переключить на тёмную тему"
+      },
+      "description": "Переключить режим темы (светлая/тёмная)"
+    },
+    "usage.show": {
+      "titles": {
+        "View usage limits": "Посмотреть лимиты использования",
+        "View usage": "Посмотреть использование"
+      }
+    },
+    "variant.cycle": {
+      "titles": {
+        "Cycle model variants": "Переключить варианты модели",
+        "Variant cycle": "Следующий вариант",
+        "Cycle model variant": "Переключить вариант модели"
+      }
+    },
+    "variant.list": {
+      "titles": {
+        "List model variants": "Список вариантов модели",
+        "Switch model variant": "Сменить вариант модели"
+      }
+    },
+    "which-key.end": {
+      "titles": {
+        "Jump to last which-key binding": "Перейти к последней привязке which-key"
+      }
+    },
+    "which-key.group.next": {
+      "titles": {
+        "Next which-key group": "Следующая группа which-key"
+      }
+    },
+    "which-key.group.previous": {
+      "titles": {
+        "Previous which-key group": "Предыдущая группа which-key"
+      }
+    },
+    "which-key.home": {
+      "titles": {
+        "Jump to first which-key binding": "Перейти к первой привязке which-key"
+      }
+    },
+    "which-key.layout.toggle": {
+      "titles": {
+        "Switch which-key layout": "Переключить раскладку which-key"
+      }
+    },
+    "which-key.page.down": {
+      "titles": {
+        "Page which-key down": "Листать which-key вниз"
+      }
+    },
+    "which-key.page.up": {
+      "titles": {
+        "Page which-key up": "Листать which-key вверх"
+      }
+    },
+    "which-key.pending.toggle": {
+      "titles": {
+        "Toggle which-key pending preview": "Переключить предварительный просмотр ожидающих which-key"
+      }
+    },
+    "which-key.scroll.down": {
+      "titles": {
+        "Scroll which-key down": "Прокрутить which-key вниз"
+      }
+    },
+    "which-key.scroll.up": {
+      "titles": {
+        "Scroll which-key up": "Прокрутить which-key вверх"
+      }
+    },
+    "which-key.toggle": {
+      "titles": {
+        "Toggle which-key panel": "Переключить панель which-key"
+      }
+    }
+  },
+  "groups": {
+    "Agent": "Агент",
+    "Session": "Сессия",
+    "Model": "Модель",
+    "Theme": "Тема",
+    "System": "Система",
+    "Integration": "Интеграция",
+    "Prompt": "Промпт",
+    "Terminal": "Терминал",
+    "Diff": "Различия",
+    "Permission": "Разрешения",
+    "Plugins": "Плагины",
+    "Workspace": "Рабочая область",
+    "Navigation": "Навигация",
+    "History": "История",
+    "Autocomplete": "Автозаполнение",
+    "Execute": "Выполнение",
+    "Debug": "Отладка",
+    "VCS": "Версионный контроль",
+    "Form": "Форма",
+    "Composer": "Композитор",
+    "Dialog": "Диалог",
+    "Suggested": "Рекомендуемые",
+    "Provider": "Провайдер",
+    "Providers": "Провайдеры",
+    "Question": "Вопрос"
+  },
+  "slash_commands": {
+    "/new": "Новая сессия",
+    "/clear": "Новая сессия (очистить текущую)",
+    "/continue": "Продолжить сессию",
+    "/resume": "Возобновить сессию",
+    "/sessions": "Список сессий",
+    "/agents": "Сменить агента",
+    "/models": "Сменить модель",
+    "/themes": "Сменить тему",
+    "/settings": "Открыть настройки",
+    "/help": "Помощь",
+    "/exit": "Выйти из OpenCode",
+    "/quit": "Выйти из OpenCode",
+    "/q": "Выйти из OpenCode",
+    "/upgrade": "Обновить OpenCode",
+    "/share": "Поделиться сессией",
+    "/unshare": "Отменить доступ к сессии",
+    "/fork": "Создать ветку сессии",
+    "/copy": "Копировать историю сессии",
+    "/export": "Экспорт истории сессии",
+    "/rename": "Переименовать сессию",
+    "/delete": "Удалить сессию",
+    "/compact": "Сжать контекст сессии",
+    "/undo": "Отменить последнее сообщение",
+    "/redo": "Повторить отменённое сообщение",
+    "/terminal": "Новый терминал",
+    "/diff": "Открыть просмотр различий",
+    "/cd": "Сменить рабочую директорию",
+    "/reload": "Перезагрузить конфигурацию",
+    "/update": "Обновить OpenCode",
+    "/plugins": "Менеджер плагинов",
+    "/mcps": "MCP серверы",
+    "/connect": "Подключить провайдера",
+    "/stats": "Статистика использования",
+    "/status": "Статус OpenCode",
+    "/debug": "Отладочная информация",
+    "/pair": "Сопрячь устройство",
+    "/web": "Сопрячь устройство (веб)",
+    "/open": "Открыть сессию или проект",
+    "/project": "Открыть проект",
+    "/projects": "Список проектов",
+    "/worktrees": "Управление рабочими деревьями",
+    "/skills": "Выбрать навык",
+    "/effort": "Сменить вариант модели (усилие)",
+    "/thinking": "Переключить отображение мышления",
+    "/toggle-thinking": "Показать/скрыть процесс мышления",
+    "/variants": "Варианты модели",
+    "/timeline": "Временная шкала сообщений",
+    "/editor": "Открыть во внешнем редакторе",
+    "/highlights": "Показать основные изменения релиза",
+    "/restart": "Перезапустить сервис",
+    "/btw": "Задать дополнительный вопрос",
+    "/usage": "Посмотреть лимиты использования"
+  }
+}
